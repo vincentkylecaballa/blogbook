@@ -77,17 +77,15 @@ body {
     font-size: 14px;
 }
 
-.alt-btn {
-    width: 12.5rem;
-    height: 40px;
-    border-radius: 10px;
-    background: white;
-}
-
 .btn {
-    border: black;
+    display: inline-flex;
+    align-items: center;
+    border-color: black;
+    width: 13.5rem;
+    border-radius: .80rem;
     .left-inner-icon {
         height: 5vh;
+        margin-right: 15px;
     }
     .inner-text {
         font-size: 12px;

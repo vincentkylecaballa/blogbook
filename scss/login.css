@@ -12033,19 +12033,21 @@ body {
   font-size: 14px;
 }
 
-.alt-btn {
-  width: 12.5rem;
-  height: 40px;
-  border-radius: 10px;
-  background: white;
-}
-
 .btn {
-  border: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-color: black;
+  width: 13.5rem;
+  border-radius: .80rem;
 }
 
 .btn .left-inner-icon {
   height: 5vh;
+  margin-right: 15px;
 }
 
 .btn .inner-text {
