@@ -1,33 +1,36 @@
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.register {
-    display: table;
-    background-color: #88bef5;
+body {
+    background-color: #FFDE16;
 }
 
-.logo-sample {
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    margin-top: 5vh;
-    color: navy;
+.register {
+    display: table;
+}
+
+.logo-img {
+    width: 30vh;
 }
 
 .register-account {
     height: 100vh;
+    border-radius: 2rem 0rem 0rem 2rem !important;
+    background: white;
 }
 
 .register-img {
     height: 30rem;
     position: absolute;
     left: 7%;
-    top: 15%;
+    top: 20%;
     bottom: 50%;
 }
 
 .create-account {
     font-family: "Inter", sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     color: navy;
+    margin-left: 5px !important;
 }
 
 .container {
@@ -36,7 +39,7 @@
         font-family: 'Inter', sans-serif;
         font-weight: bold;
         margin-top: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
 
@@ -46,6 +49,7 @@
 #password {
     padding: 6px 15px;
     border-radius: 5px;
+    height: 2.5rem;
     outline: none;
     border: none;
     background: #F6F7F9;
@@ -63,7 +67,7 @@
     border-radius: 25px;
     outline: none;
     border: none;
-    background: navy;
-    color: white;
+    background: #FFDE16;
+    color: black;
     font-size: 14px;
 }

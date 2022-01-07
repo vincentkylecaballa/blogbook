@@ -11958,33 +11958,43 @@ fieldset:disabled .btn {
   }
 }
 
+body {
+  background-color: #FFDE16;
+}
+
 .register {
   display: table;
-  background-color: #88bef5;
 }
 
 .logo-sample {
   font-family: 'Inter', sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   margin-top: 5vh;
   color: navy;
 }
 
-.register-account {
+.logo-img {
+  width: 30vh;
+}
+
+.login-account {
   height: 100vh;
+  background: white;
+  border-radius: 2rem 0rem 0rem 2rem !important;
 }
 
 .register-img {
   height: 30rem;
   position: absolute;
   left: 7%;
-  top: 15%;
+  top: 20%;
   bottom: 50%;
 }
 
-.create-account {
+.login-text {
   font-family: "Inter", sans-serif;
-  font-weight: 900;
+  font-weight: 800;
+  margin-left: 5px;
   color: navy;
 }
 
@@ -11993,17 +12003,18 @@ fieldset:disabled .btn {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 #email-address,
 #password {
   padding: 6px 15px;
-  border-radius: 5px;
+  height: 2.5rem;
+  border-radius: 20px;
   outline: none;
   border: none;
   background: #F6F7F9;
-  color: #748194;
+  color: black;
   font-size: 14px;
   font-family: 'Inter', sans-serif;
 }
@@ -12017,8 +12028,28 @@ fieldset:disabled .btn {
   border-radius: 25px;
   outline: none;
   border: none;
-  background: navy;
-  color: white;
+  background: #FFDE16;
+  color: black;
   font-size: 14px;
+}
+
+.alt-btn {
+  width: 12.5rem;
+  height: 40px;
+  border-radius: 10px;
+  background: white;
+}
+
+.btn {
+  border: black;
+}
+
+.btn .left-inner-icon {
+  height: 5vh;
+}
+
+.btn .inner-text {
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
 }
 /*# sourceMappingURL=login.css.map */
