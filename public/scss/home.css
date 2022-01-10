@@ -11970,8 +11970,8 @@ fieldset:disabled .btn {
 
 .nav-link {
   color: navy !important;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .news {
@@ -11991,5 +11991,44 @@ fieldset:disabled .btn {
   background-color: #FFDE16;
   border-radius: 50%;
   display: inline-block;
+}
+
+.header-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+}
+
+.blog-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.blog-overview {
+  font-family: 'Inter', sans-serif;
+}
+
+.header-title {
+  color: navy;
+}
+
+hr.solid-yellow {
+  border-top: 10px solid;
+  border-color: #FFDE16;
+}
+
+#blog-image {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#ad-image {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=home.css.map */

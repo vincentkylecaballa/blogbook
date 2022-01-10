@@ -20,8 +20,6 @@
                 </div>
             </div>
             <div class="col-lg-6 login-account">
-
-
                 <div class="container">
                     <div class="col-md-8 offset-md-2 align-self-center">
                         <h1 class="login-text mt-5 mb-4">Log In</h1>
